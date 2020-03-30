@@ -1,7 +1,7 @@
 {
-    "id": "sample",
-    "name": "sample",
-    "title": "MakeCode Editor Sample",
+    "id": "RobotistasMx",
+    "name": "RobotistasMx",
+    "title": "MakeCode RobotistasMX Online",
     "corepkg": "core",
     "cloud": {
         "workspace": false,
@@ -15,16 +15,16 @@
       "loopsBlocks": true,
       "logicBlocks": true,
       "variablesBlocks": true,
-      "textBlocks": false,
-      "functionBlocks": false,
-      "listsBlocks": false 
+      "textBlocks": true,
+      "functionBlocks": true,
+      "listsBlocks": true 
     },
     "simulator": {
         "autoRun": true
     },
     "appTheme": {
         "logoUrl": "https://github.com/Microsoft/pxt-sample",
-        "homeUrl": "http://microsoft.github.io/pxt-sample/",
+        "homeUrl": "http://microsoft.github.io/robotistasmx-online/",
         "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
         "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
         "betaUrl": "https://makecode.com/",
@@ -59,7 +59,7 @@
         "highContrast": true,
         "greenScreen": true,
         "monacoColors": {
-            "editor.background": "#ecf0f1"
+            "editor.background": "#ff0000"
         }
     }
 }
