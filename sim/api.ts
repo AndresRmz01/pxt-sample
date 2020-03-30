@@ -17,7 +17,7 @@ namespace pxsim.hare {
     }
 }
 
-namespace pxsim.turtle {
+namespace pxsim.motores {
     /**
      * Moves the sprite forward
      * @param steps number of steps to move, eg: 1
@@ -36,7 +36,7 @@ namespace pxsim.turtle {
     //% weight=85
     //% blockId=sampleTurn block="turn %direction|by %angle degrees"
     //% angle.min=-180 angle.max=180
-    export function turnAsync(direction: Direction, angle: number) {
+ /*   export function turnAsync(direction: Direction, angle: number) {
         let b = board();
 
         if (direction == Direction.Left)
@@ -44,18 +44,18 @@ namespace pxsim.turtle {
         else
             b.sprite.angle += angle;
         return Promise.delay(400)
-    }
+    }*/
 
     /**
      * Triggers when the turtle bumps a wall
      * @param handler 
      */
     //% blockId=onBump block="on bump"
-    export function onBump(handler: RefAction) {
+  /* export function onBump(handler: RefAction) {
         let b = board();
 
         b.bus.listen("Turtle", "Bump", handler);
-    }
+    }*/
 }
 
 namespace pxsim.loops {
@@ -136,12 +136,5 @@ namespace pxsim {
     }
 }
 
-namespace pxsim.sprites {
-    /**
-     * Creates a new sprite
-     */
-    //% blockId="sampleCreate" block="createSprite"
-    export function createSprite(): Sprite {
-        return new Sprite();
-    }
+
 }
